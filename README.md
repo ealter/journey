@@ -9,7 +9,11 @@ introduction
 Journey's goal is to provide a *fast* and *flexible* *RFC 2616 compliant* request router
 for *JSON* consuming clients.
 
+fork differences
+----------------
+This fork changes the behavior of string responses. Instead of encoding strings into JSON, this version will simply return the string.
 synopsis
+
 --------
 
     var journey = require('journey');
